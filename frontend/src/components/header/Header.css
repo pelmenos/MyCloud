@@ -1,0 +1,74 @@
+.header {
+    width: 100%;
+    box-shadow: 3px 3px 10px grey;
+    background-color: var(--component-color);
+}
+
+
+.header_content {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto';
+    color: var(--text-color)
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile__name {
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.profile__name:hover {
+    cursor: pointer;
+}
+
+.auth_btn {
+    border-radius: 12px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 5px 10px;
+    color: var(--text-color);
+    text-decoration: none;
+    margin-right: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    transition: all 0.1s;
+}
+
+.auth_btn:hover {
+    transform: translateY(-3px);
+}
+
+.reg_btn {
+    border-radius: 12px;
+    background-color: var(--text-color);
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    transition: all 0.1s;
+}
+
+.reg_btn:hover {
+    transform: translateY(-3px);
+}

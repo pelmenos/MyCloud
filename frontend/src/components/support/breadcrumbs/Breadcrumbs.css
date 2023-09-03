@@ -1,0 +1,7 @@
+.breadcrumbs {
+    margin-top: 30px;
+}
+
+.breadcrumbs div {
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+/* .support_block {
+} */
+
+.folder_name {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Roboto';
+    color: var(--text-color);
+
+}
+
+.left_button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 15%;
+}
+
+.back_arrow {
+    border: 1px solid var(--line-color);
+    ;
+    border-radius: 25px;
+    padding: 5px 9px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.back_arrow:hover {
+    cursor: pointer;
+}
+
+.back_arrow:active {
+    background-color: var(--click-color);
+    ;
+}
+
+.create_folder_btn {
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid var(--line-color);
+    ;
+    color: var(--text-color);
+    ;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    text-align: center;
+}
+
+.create_folder_btn:hover {
+    cursor: pointer;
+}
+
+.create_folder_btn:active {
+    background-color: var(--click-color);
+    ;
+}

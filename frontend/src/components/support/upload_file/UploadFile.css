@@ -1,0 +1,24 @@
+.hidden {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.upload_file_button {
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid var(--line-color);
+    color: var(--text-color);
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    text-align: center;
+    cursor: pointer;
+}

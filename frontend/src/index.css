@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 100%
+}
+
+#root {
+  height: 100%
+}
+
+:root {
+  --component-color: #EEF2FD;
+  --text-color: #404756;
+  --line-color: #404756;
+  --click-color: #EEF2FD;
+  --some-color: #9CABCF
+}
